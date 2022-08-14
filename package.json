@@ -2,6 +2,12 @@
   "name": "prism-theme-github",
   "private": true,
   "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp minify",
+    "lint": "stylelint \"themes/*.css\"",
+    "lint-fix": "stylelint \"themes/*.css\" --fix"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jongwooo/prism-theme-github.git"
@@ -20,5 +26,8 @@
     "gulp-rename": "^2.0.0",
     "stylelint": "^14.10.0",
     "stylelint-config-standard": "^27.0.0"
-  }
+  },
+  "files": [
+    "themes/*.css"
+  ]
 }
