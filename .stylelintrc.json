@@ -1,0 +1,20 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "color-hex-case": null,
+    "color-hex-length": null,
+    "comment-empty-line-before": null,
+    "declaration-empty-line-before": null,
+    "declaration-property-value-disallowed-list": {
+      "//": ["/\\bunset\\b/"]
+    },
+    "indentation": "tab",
+    "no-descending-specificity": null,
+    "number-leading-zero": null,
+    "selector-list-comma-newline-after": null,
+    "selector-pseudo-element-colon-notation": "single"
+  },
+  "ignoreFiles": [
+    "**/*.min.css"
+  ]
+}
