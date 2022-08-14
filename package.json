@@ -9,6 +9,17 @@
     "lint": "stylelint \"themes/*.css\"",
     "lint-fix": "stylelint \"themes/*.css\" --fix"
   },
+  "keywords": [
+    "github",
+    "theme",
+    "prism",
+    "github-theme",
+    "github-themes",
+    "prism-theme",
+    "prism-themes",
+    "github-light",
+    "github-dark"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jongwooo/prism-theme-github.git"
