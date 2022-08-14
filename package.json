@@ -1,0 +1,17 @@
+{
+  "name": "prism-theme-github",
+  "private": true,
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jongwooo/prism-theme-github.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jongwooo/prism-theme-github"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "author": "jongwooo <han980817@gmail.com>",
+  "license": "MIT"
+}
