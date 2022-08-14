@@ -1,11 +1,11 @@
 {
   "name": "@jongwooo/prism-theme-github",
   "description": "A GitHub theme for Prism.js",
-  "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "build": "gulp minify",
+    "prepublishOnly": "gulp minify",
     "lint": "stylelint \"themes/*.css\"",
     "lint-fix": "stylelint \"themes/*.css\" --fix"
   },
@@ -26,9 +26,6 @@
   },
   "bugs": {
     "url": "https://github.com/jongwooo/prism-theme-github"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "author": "jongwooo <han980817@gmail.com>",
   "license": "MIT",
