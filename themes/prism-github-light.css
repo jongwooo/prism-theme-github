@@ -188,55 +188,6 @@ pre[class*="language-"] {
 	color: var(--color-indigo);
 }
 
-/* TS overrides */
-.language-ts .token.keyword {
-	color: var(--color-red);
-}
-
-.language-ts .token.operator,
-.language-ts .token.constant,
-.language-ts .token.boolean,
-.language-ts .token.number,
-.language-ts .token.atrule {
-	color: var(--color-blue);
-}
-
-.language-ts .token.function {
-	color: var(--color-purple);
-}
-
-.language-ts .token.attr-name,
-.language-ts .token.class-name,
-.language-ts .token.function-variable {
-	color: var(--color-brown);
-}
-
-/* TSX overrides */
-.language-tsx .token.keyword {
-	color: var(--color-red);
-}
-
-.language-tsx .token.function {
-	color: var(--color-purple);
-}
-
-.language-tsx .token.function-variable {
-	color: var(--color-brown);
-}
-
-.language-tsx .token.punctuation {
-	color: var(--color-blue);
-}
-
-.language-tsx .token.attr-name,
-.language-tsx .token.class-name {
-	color: var(--color-green);
-}
-
-.language-tsx .token.string {
-	color: var(--color-indigo);
-}
-
 /* JSON overrides */
 .language-json .token.operator {
 	color: var(--color-fg-default);
