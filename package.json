@@ -1,7 +1,7 @@
 {
   "name": "@jongwooo/prism-theme-github",
   "description": "A GitHub theme for Prism.js",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "main": "index.js",
   "scripts": {
     "build": "gulp minify",
