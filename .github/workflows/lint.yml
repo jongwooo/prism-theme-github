@@ -1,9 +1,9 @@
-name: CI
+name: Lint
 
 on: pull_request
 
 jobs:
-  ci:
+  lint:
     runs-on: ubuntu-latest
     strategy:
       matrix:
