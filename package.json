@@ -7,7 +7,7 @@
     "build": "gulp minify",
     "prepublishOnly": "gulp minify",
     "lint": "stylelint \"themes/*.css\"",
-    "lint-fix": "stylelint \"themes/*.css\" --fix"
+    "lint:fix": "stylelint \"themes/*.css\" --fix"
   },
   "keywords": [
     "github",
