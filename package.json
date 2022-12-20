@@ -1,7 +1,7 @@
 {
   "name": "@jongwooo/prism-theme-github",
   "description": "Prism syntax highlighter themes based on GitHub's style.",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "main": "index.js",
   "scripts": {
     "build": "gulp minify",
