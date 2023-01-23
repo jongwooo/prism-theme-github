@@ -190,6 +190,28 @@ pre[class*="language-"] {
 	color: var(--color-green);
 }
 
+/* Dockerfile overrides */
+.language-dockerfile .token.keyword {
+	color: var(--color-red);
+}
+
+.language-dockerfile .token.function {
+	color: var(--color-purple);
+}
+
+.language-dockerfile .token.punctuation {
+	color: var(--color-blue);
+}
+
+.language-dockerfile .token.attr-name,
+.language-dockerfile .token.class-name {
+	color: var(--color-green);
+}
+
+.language-dockerfile .token.string {
+	color: var(--color-indigo);
+}
+
 /* General */
 .token.bold {
 	font-weight: bold;
