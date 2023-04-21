@@ -81,7 +81,7 @@ __metadata:
     gulp: ^4.0.2
     gulp-clean-css: ^4.3.0
     gulp-rename: ^2.0.0
-    stylelint: ^15.0.0
+    stylelint: ^15.5.0
     stylelint-config-standard: ^33.0.0
   languageName: unknown
   linkType: soft
@@ -4174,7 +4174,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:^15.0.0":
+"stylelint@npm:^15.5.0":
   version: 15.5.0
   resolution: "stylelint@npm:15.5.0"
   dependencies:
