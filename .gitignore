@@ -121,23 +121,6 @@ web_modules/
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-# Yarn
-yarn-error.log
-.pnp/
-.pnp.js
-
-# Yarn Integrity file
-.yarn-integrity
-
-# Yarn Berry
-.yarn/*
-!.yarn/cache
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
-
 ### Node Patch ###
 # Serverless Webpack directories
 .webpack/
