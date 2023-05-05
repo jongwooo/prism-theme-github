@@ -184,6 +184,28 @@ pre[class*="language-"] {
 	color: var(--color-blue);
 }
 
+/* Go overrides */
+.language-go .token.keyword {
+	color: var(--color-red);
+}
+
+.language-go .token.operator,
+.language-go .token.constant,
+.language-go .token.boolean,
+.language-go .token.number,
+.language-go .token.atrule {
+	color: var(--color-blue);
+}
+
+.language-go .token.function {
+	color: var(--color-purple);
+}
+
+.language-go .token.attr-name,
+.language-go .token.function-variable {
+	color: var(--color-green);
+}
+
 /* YAML overrides */
 .language-yml .token.atrule,
 .language-yaml .token.atrule {
