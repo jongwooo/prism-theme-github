@@ -184,6 +184,28 @@ pre[class*="language-"] {
 	color: var(--color-blue);
 }
 
+/* Java overrides */
+.language-java .token.keyword {
+	color: var(--color-red);
+}
+
+.language-java .token.operator,
+.language-java .token.constant,
+.language-java .token.boolean,
+.language-java .token.number,
+.language-java .token.atrule {
+	color: var(--color-blue);
+}
+
+.language-java .token.function {
+	color: var(--color-purple);
+}
+
+.language-java .token.attr-name,
+.language-java .token.function-variable {
+	color: var(--color-green);
+}
+
 /* Go overrides */
 .language-go .token.keyword {
 	color: var(--color-red);
