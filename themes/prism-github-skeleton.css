@@ -206,6 +206,28 @@ pre[class*="language-"] {
 	color: var(--color-green);
 }
 
+/* Kotlin overrides */
+.language-kotlin .token.keyword {
+	color: var(--color-red);
+}
+
+.language-kotlin .token.operator,
+.language-kotlin .token.constant,
+.language-kotlin .token.boolean,
+.language-kotlin .token.number,
+.language-kotlin .token.atrule {
+	color: var(--color-blue);
+}
+
+.language-kotlin .token.function {
+	color: var(--color-purple);
+}
+
+.language-kotlin .token.attr-name,
+.language-kotlin .token.function-variable {
+	color: var(--color-green);
+}
+
 /* Go overrides */
 .language-go .token.keyword {
 	color: var(--color-red);
