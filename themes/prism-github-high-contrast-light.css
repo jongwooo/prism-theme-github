@@ -1,0 +1,19 @@
+/**
+ * GitHub's High Contrast Light theme for prism.js
+ * @author Jongwoo Han (@jongwooo)
+ */
+
+@import url("prism-github-skeleton.css");
+
+:root {
+    --color-fg-default: #0e1116;
+    --color-bg-code-block: #e7ecf0;
+    --color-bg-inline-code-block: rgb(172 182 192 / 20%);
+    --color-gray: #4b535d;
+    --color-red: #a0111f;
+    --color-green: #024c19;
+    --color-blue: #023a95;
+    --color-indigo: #032563;
+    --color-purple: #512598;
+    --color-brown: #702d00;
+}
