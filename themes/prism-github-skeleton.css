@@ -278,6 +278,24 @@ pre[class*="language-"] {
 	color: var(--color-indigo);
 }
 
+/* HCL overrides */
+.language-hcl .token.keyword {
+	color: var(--color-red);
+}
+
+.language-hcl .token.keyword:not(:has(span)) {
+	color: var(--color-purple);
+}
+
+.language-hcl .token.string {
+	color: var(--color-indigo);
+}
+
+.language-hcl .token.property,
+.language-hcl .token.punctuation {
+	color: var(--color-fg-default);
+}
+
 /* General */
 .token.bold {
 	font-weight: bold;
