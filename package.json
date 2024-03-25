@@ -29,10 +29,10 @@
   "author": "jongwooo <han980817@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^3.9.1",
     "gulp-clean-css": "^4.3.0",
     "gulp-rename": "^2.0.0",
-    "stylelint": "^16.2.1",
+    "stylelint": "^16.3.0",
     "stylelint-config-standard": "^36.0.0"
   },
   "files": [
