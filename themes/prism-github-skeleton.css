@@ -278,21 +278,21 @@ pre[class*="language-"] {
 	color: var(--color-indigo);
 }
 
-/* Terraform overrides */
-.language-terraform .token.keyword {
+/* HCL overrides */
+.language-hcl .token.keyword {
 	color: var(--color-red);
 }
 
-.language-terraform .token.keyword:not(:has(span)) {
+.language-hcl .token.keyword:not(:has(span)) {
 	color: var(--color-purple);
 }
 
-.language-terraform .token.string {
+.language-hcl .token.string {
 	color: var(--color-indigo);
 }
 
-.language-terraform .token.property,
-.language-terraform .token.punctuation {
+.language-hcl .token.property,
+.language-hcl .token.punctuation {
 	color: var(--color-fg-default);
 }
 
